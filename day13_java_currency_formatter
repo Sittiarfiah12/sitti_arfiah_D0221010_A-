@@ -1,0 +1,47 @@
+import java.util.*;
+
+import java.text.*;
+
+Penyelesaian kelas awam {
+
+    
+
+    public static void main(String[] args) {
+
+        Pengimbas pengimbas = Pengimbas baharu(System.in);
+
+        bayaran dua kali = scanner.nextDouble();
+
+        scanner.close();
+
+        
+
+        // Tulis kod anda di sini.
+
+        NumberFormat fus = NumberFormat.getCurrencyInstance(Locale.US);
+
+        NumberFormat fIndi = NumberFormat.getCurrencyInstance(new Locale("en","in"));
+
+        NumberFormat fCina = NumberFormat.getCurrencyInstance(Locale.CHINA);
+
+        NumberFormat fFrance = NumberFormat.getCurrencyInstance(Locale.FRANCE);
+
+        String us = fus.format(payment);
+
+        String india = fIndi.format(pembayaran);
+
+        String china = fCina.format(pembayaran);
+
+        String france = fFrance.format(payment);
+
+        System.out.println("AS: " + kami);
+
+        System.out.println("India: " + india);
+
+        System.out.println("China: " + china);
+
+        System.out.println("France: " + france);
+
+    }
+
+},
