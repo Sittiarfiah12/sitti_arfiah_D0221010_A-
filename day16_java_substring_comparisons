@@ -1,0 +1,69 @@
+import java.util.Scanner;
+
+Penyelesaian kelas awam {
+
+    String statik awam mendapat TerkecilDanTerbesar(String s, int k) {
+
+        Rentetan terkecil = "";
+
+        Rentetan terbesar = "";
+
+        
+
+        // Lengkapkan fungsi
+
+        // 'terkecil' mestilah subrentetan terkecil dari segi leksikografi panjang 'k'
+
+        // 'terbesar' mestilah subrentetan terbesar dari segi leksikografi panjang 'k'
+
+        
+
+        int lastIndex = s.length()-k;
+
+        terkecil = s.substring(0,k);
+
+        terbesar = s.substring(0,k);
+
+        untuk (int i=0;i<=lastIndex;i++){
+
+            Rentetan sub = s.substring(i, i+k);
+
+            //System.out.println(sub);
+
+            if(smallest.compareTo(sub)>0){
+
+                terkecil = sub;
+
+            }
+
+            if(largest.compareTo(sub)<0){
+
+                terbesar = sub;
+
+            }
+
+        }
+
+        
+
+        pulangkan terkecil + "\n" + terbesar;
+
+    }
+
+    public static void main(String[] args) {
+
+        Imbasan pengimbas = Pengimbas baharu(System.in);
+
+        Rentetan s = scan.next();
+
+        int k = scan.nextInt();
+
+        scan.close();
+
+      
+
+        System.out.println(getSmallestAndLarge(s, k));
+
+    }
+
+},
